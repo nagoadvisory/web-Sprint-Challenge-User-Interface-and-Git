@@ -111,7 +111,7 @@ p {
     }
 
     .logo {
-        min-width: 30%;
+        min-width: 25%;
         display: flex;
         align-content: center;
         justify-content:left;
@@ -120,10 +120,10 @@ p {
 
     .headerlinks {
         display: flex;
-        min-width: 70%;
+        min-width: 75%;
         border: gold 5px solid;
-        vertical-align: bottom;
-        justify-content: space-evenly;
+        align-items: flex-end;
+        justify-content: space-around;
 
     }
 
