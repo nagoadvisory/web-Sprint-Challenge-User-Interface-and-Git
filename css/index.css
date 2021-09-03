@@ -101,7 +101,18 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+/* .middle-content .boxes .box1, .middle-content .boxes .box2, .middle-content .boxes .box3, .middle-content .boxes .box4, .middle-content .boxes .box5, .middle-content .boxes .box6, .middle-content .boxes .box7, .middle-content .boxes .box8, .middle-content .boxes .box9, .middle-content .boxes .box10   {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.middle-content .boxes [class^="box"]{
     width: 12.5%;
     height: 100px;
     background: black;
@@ -194,13 +205,15 @@ padding:1% 0;
     display: flex;
     min-width: 70%;
     border: gold 5px solid;
-    align-items: center;
+    vertical-align: bottom;
     justify-content: space-evenly;
+
 }
 
 nav a {
     padding: 0 2%;
     align-content: center;
+    vertical-align: text-bottom;
     
 }
 
@@ -210,4 +223,92 @@ nav a {
 
 .text-container, .middle-content {
     text-align: left;
+}
+
+/*Adding colors from the Readme file */
+
+.middle-content .boxes .box1 {
+    background-color: teal;
+}
+
+.middle-content .boxes .box2 {
+    background-color: gold;
+}
+
+.middle-content .boxes .box3 {
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background-color: coral;
+}
+
+.middle-content .boxes .box5 {
+    background-color: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background-color: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background-color: dodgerblue;
+}
+
+/* About Page */
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+    border: blue 2px solid;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+
+.about-header {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.four-panels {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: gold 3px solid; */
+    /* padding: 1%; */
+    justify-content: space-around;
+}
+
+.four-panels a {
+    border: black 1px solid;
+    width:fit-content;
+    padding: 1% 5%;
+    border-radius: 10px;
+    margin: 5% 0;
+}
+
+.about-one, .about-two, .about-three, .about-four {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    width: 45%;
+    margin-bottom: 1%;
+}
+
+/* Editing margins on Let's Work Together */
+
+.work-together {
+    padding: 3%;
 }
