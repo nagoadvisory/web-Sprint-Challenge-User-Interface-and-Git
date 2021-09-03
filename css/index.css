@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -143,4 +143,71 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* End Established CSS Reset */
+
+/* General Styles per Brit Hemming */
+html{
+font-size:62.5%;
+}
+
+body {
+font-size: 1.6rem;
+line-height: 1.5;
+/* font-family: 'Roboto Mono', monospace; */
+text-align: center;
+/* color: #4f4f4f; */
+margin: 10px;
+}
+
+span {
+font-weight: bold;
+}
+
+section{
+padding:1% 0;
+}
+
+/* End General Styles */
+
+/* Navigation Bar */
+
+.topcontainer {
+    border: black solid 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1%;
+    padding: 1%;
+    width: 100%;
+}
+
+.logo {
+    min-width: 30%;
+    display: flex;
+    align-content: center;
+    justify-content:left;
+    border: green 5px solid;
+}
+
+.headerlinks {
+    display: flex;
+    min-width: 70%;
+    border: gold 5px solid;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav a {
+    padding: 0 2%;
+    align-content: center;
+    
+}
+
+/* Navigation Bar */
+
+/* Editing the Future and Past Section */
+
+.text-container, .middle-content {
+    text-align: left;
 }
